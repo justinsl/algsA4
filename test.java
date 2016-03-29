@@ -3,10 +3,10 @@ public class test {
 
     public static void main(String[] args) {
 	// TODO Auto-generated method stub
-	int[][] a = new int[2][2];
-	short b = 1;
-	int c = 1;
-	System.out.println(b == c);
+	int[] asdf = {1,2,3};
+	int[] bbq = asdf;
+	asdf[0] = 2;
+	System.out.println(bbq[0]);
     }
 
 }
